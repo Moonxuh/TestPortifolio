@@ -15,11 +15,8 @@ body {
     font-weight: 600;
     font-size: 28px;
     line-height: 42px;
-
     text-decoration-line: underline;
-
     color: #070F18;
-
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -45,13 +42,70 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height */
-
     text-align: center;
-
     color: #070F18;
 }
 
 a {
     color: black;
+    /* Tira o sublinhado dos links */
+    text-decoration: none;
+}
+
+#buttonCTA {
+    background: #1F7CFF;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 25px 10px 25px;
+}
+
+#headerCTA p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    /* or 200% */
+
+
+    color: #575455;
+}
+
+#headerCTA h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #000000;
+}
+
+#headerIMG {
+    margin-left: 42px;
+}
+
+#headerIMG img {
+    width: 80%;
+}
+
+.headerLogo {
+    text-align: center;
+
+}
+
+#clientes {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#headerClientText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #070F18;
 }
