@@ -23,3 +23,35 @@ body {
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
+#menu {
+    text-align: right;
+    margin-top: 49px;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    /* Vai ser exibido na mesma linha e em blocos */
+    display: inline-block;
+    margin-left: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #070F18;
+}
+
+a {
+    color: black;
+}
