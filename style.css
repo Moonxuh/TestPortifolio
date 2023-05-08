@@ -70,9 +70,6 @@ p.gray {
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
-    /* or 200% */
-
-
     color: #575455;
 }
 
@@ -98,7 +95,7 @@ p.gray {
 }
 
 #clientes {
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 50px;
 }
 
@@ -181,4 +178,16 @@ h1.black {
     text-align: right;
     border: 0;
     color: #FFFFFF;
+}
+
+#portifolioTitle {
+    margin-top: 100px;
+}
+
+.portifolioImg img {
+    width: 100%;
+}
+
+.portifolioImg {
+    padding: 20px;
 }
